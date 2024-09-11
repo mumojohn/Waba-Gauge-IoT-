@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waba Gauge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <img src="./logo" alt="waba gauge logo">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#analytics">Analytics</a></li>
+                    <li><a href="#control">Control</a></li>
+                    <li><a href="#signout" id="Signout-btn">Signout</a></li>
+                </ul>
+            </nav>
+         </div>
+    </header>
+
+    <main>
+        <section id="Analytics">
+            <h2>Analytics</h2>
+        <p>Litres per day: <span id="litres per day">loading...</span></p>
+        <canvas id="water usage chart"</canvas>
+        </section>
+
+        <section id="Control">
+            <h2>Control</h2>
+            <button id="relay1-on" class="control-btn">Turn Relay 1 ON</button>
+            <button id="relay1-off" class="control-btn">Turn Relay 1 OFF</button>
+            <button id="relay2-on" class="control-btn">Turn Relay 2 ON</button>
+            <button id="relay2-on" class="control-btn">Turn Relay 2 Off</button>
+
+    </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>

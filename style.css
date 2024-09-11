@@ -1,0 +1,64 @@
+body {
+    font-family: arial, san-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: hsl(210, 29%, 24%);
+}
+
+header {
+    background-color: #3498db;
+    padding: 10px 20px;
+}
+.logo {
+    height: 40px;
+    float: left;
+}
+.navbar ul {
+    list-style: none;
+    float: right;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    columns: #fff;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+#analytics, #control {
+    margin-bottom: 40px;
+}
+
+h2 {
+    columns: #3498db;
+}
+
+.control-btn {
+    background-color: #2ecc71;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.control-btn:hover {
+    background-color: #27ae60;
+}
+#litres-per-day {
+    font-weight: bold;
+}
+
+canvas {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+}
